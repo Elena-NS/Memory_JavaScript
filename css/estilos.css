@@ -1,0 +1,235 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*Estilos para la página de index*/
+.menu {
+    text-align: center;
+    background-image: url(../img/logo3.png);
+    color: white;
+}
+
+.menu h1 {
+    height: 5vh;
+    margin-bottom: 2vh;
+}
+
+summary {
+    font-size: 0.8rem;
+}
+
+details p {
+    font-size: 0.8rem;
+}
+
+details:hover {
+    cursor: pointer;
+}
+
+.menu button {
+    width: 7vw;
+    height: 5vh;
+    font-weight: bold;
+}
+
+.nivel1 {
+    height: 27vh;
+    border: 3px solid blue;
+    background-image: url(../img/fondo1.png);
+    color: white;
+}
+
+.nivel1 p {
+    background-color: rgba(255, 192, 203, 0.308);
+}
+
+.nivel1 button {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+.nivel1 button:hover {
+    border: 2px solid pink;
+    cursor: pointer;
+}
+
+.nivel2 {
+    height: 27vh;
+    border: 3px solid rgb(0, 27, 0);
+    background-image: url(../img/fondo2.png);
+    color: white;
+}
+
+.nivel2 p {
+    background-color: rgba(31, 31, 31, 0.39);
+}
+
+.nivel2 button {
+    background-color: rgb(0, 27, 0);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+.nivel2 button:hover {
+    border: 2px solid rgb(41, 41, 41);
+    cursor: pointer;
+}
+
+.nivel3 {
+    height: 27vh;
+    border: 3px solid goldenrod;
+    background-image: url(../img/fondo3.png);
+    color: white;
+}
+
+.nivel3 p {
+    background-color: rgba(31, 39, 17, 0.425);
+}
+
+.nivel3 button {
+    background-color: rgb(0, 66, 0);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+.nivel3 button:hover {
+    border: 2px solid goldenrod;
+    cursor: pointer;
+}
+
+/*Estilos para los tres juegos*/
+.flex {
+    display: flex;
+}
+
+.flex-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fondo1 {
+    background-image: url(../img/fondo1.png);
+}
+
+.fondo2 {
+    background-image: url(../img/fondo2.png);
+}
+
+.fondo3 {
+    background-image: url(../img/fondo3.png);
+}
+
+.container {
+    margin: 0;
+    margin-left: 20vw;
+    display: flex;
+}
+
+.container2 {
+    margin: 0;
+    margin-left: 10vw;
+    display: flex;
+}
+
+.container3 {
+    margin: 0;
+    margin-left: 2vw;
+    display: flex;
+}
+
+.facil {
+    width: 12vw;
+    height: 30vh;
+    object-fit: cover;
+    border: 2px solid transparent;
+}
+
+.facil:hover {
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+.normal {
+    width: 12vw;
+    height: 31vh;
+    object-fit: cover;
+    border: 2px solid transparent;
+}
+
+.normal:hover {
+    border: 2px solid rgb(1, 127, 201);
+    cursor: pointer;
+}
+
+.dios {
+    width: 11vw;
+    height: 29vh;
+    object-fit: cover;
+    border: 2px solid transparent;
+}
+
+.dios:hover {
+    border: 2px solid goldenrod;
+    cursor: pointer;
+}
+
+#volver {
+    align-self: center;
+    height: fit-content;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.fondo1 #volver:hover {
+    border: 2px solid pink;
+    cursor: pointer;
+}
+
+.fondo2 #volver {
+    align-self: center;
+    background-color: rgb(0, 27, 0);
+}
+
+.fondo2 #volver:hover {
+    border: 2px solid rgb(41, 41, 41);
+    cursor: pointer;
+}
+
+.flex-vertical #volver {
+    background-color: rgb(0, 66, 0);
+}
+
+.flex-vertical #volver:hover {
+    border: 2px solid goldenrod;
+    cursor: pointer;
+}
+
+#reiniciar {
+    align-self: center;
+    height: fit-content;
+    background-color: rgb(0, 66, 0);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-top: 2vh;
+}
+
+#reiniciar:hover {
+    border: 2px solid goldenrod;
+    cursor: pointer;
+}
+
+.contador {
+    color: goldenrod;
+}
