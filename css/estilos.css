@@ -6,7 +6,8 @@
 .menu {
     text-align: center;
     background-image: url(../img/logo3.png);
-    color: white;
+    color: rgb(62, 219, 233);
+    /*Te he cambiado el color de fondo a otro mucho mas bonito*/
 }
 
 .menu h1 {
